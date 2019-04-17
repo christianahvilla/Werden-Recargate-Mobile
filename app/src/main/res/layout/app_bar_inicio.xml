@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Inicio">
+
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:contentInsetStart="0sp"
+                app:contentInsetStartWithNavigation="0sp"
+                app:contentInsetEnd="0sp"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+            layout="@layout/content_inicio"
+            app:layout_anchorGravity="left|top"
+            app:layout_anchor="@+id/fab_add"
+            android:id="@+id/include"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_qr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginStart="@dimen/fab_margin_right"
+            android:layout_marginBottom="@dimen/fab_margin_bottom100"
+            android:elevation="@dimen/fab_elevation6"
+            android:src="@drawable/ic_qr"
+            android:visibility="invisible"
+            app:pressedTranslationZ="@dimen/fab_passed_translationZ12"
+            tools:targetApi="lollipop"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="@dimen/fab_margin_bottom180"
+            android:tint="@android:color/white"
+            android:elevation="@dimen/fab_elevation6"
+            android:layout_marginStart="@dimen/fab_margin_right"
+            android:visibility="invisible"
+            android:src="@drawable/ic_person_add_black_24dp"
+            app:pressedTranslationZ="@dimen/fab_passed_translationZ12"
+            tools:targetApi="lollipop"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="@dimen/fab_margin"
+            android:tint="@android:color/white"
+            android:elevation="@dimen/fab_elevation6"
+            app:srcCompat="@android:drawable/ic_input_add"
+            app:pressedTranslationZ="@dimen/fab_passed_translationZ12"
+            app:layout_anchorGravity="left|bottom"
+            app:layout_anchor="@+id/include"
+            tools:targetApi="lollipop"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

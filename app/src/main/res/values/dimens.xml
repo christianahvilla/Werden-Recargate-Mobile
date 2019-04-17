@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+    <dimen name="nav_header_vertical_spacing">8sp</dimen>
+    <dimen name="nav_header_height">176sp</dimen>
+    <dimen name="fab_margin">26sp</dimen>
+    <dimen name="standard_55">55sp</dimen>
+    <dimen name="standard_105">105sp</dimen>
+    <dimen name="standard_155">155sp</dimen>
+    <dimen name="fab_margin_right">26sp</dimen>
+    <dimen name="text_font_size_20">20sp</dimen>
+    <dimen name="text_font_size_15">15sp</dimen>
+    <dimen name="activity_margin_start">36sp</dimen>
+    <dimen name="activity_margin_top">30sp</dimen>
+    <dimen name="image_qr">14sp</dimen>
+    <dimen name="margin_top_qr">80sp</dimen>
+    <dimen name="text_font_size_35">35sp</dimen>
+    <dimen name="image_who_height">150sp</dimen>
+    <dimen name="add_customer_margin_top20">20sp</dimen>
+    <dimen name="add_customer_margin_top35">35sp</dimen>
+    <dimen name="add_customer_margin_side32">32sp</dimen>
+    <dimen name="add_customer_margin_bottom30">30sp</dimen>
+    <dimen name="fab_margin_bottom100">100sp</dimen>
+    <dimen name="fab_elevation6">6sp</dimen>
+    <dimen name="fab_passed_translationZ12">12sp</dimen>
+    <dimen name="change_profile_margin20">20sp</dimen>
+    <dimen name="image_height300">300sp</dimen>
+    <dimen name="image_width300">300sp</dimen>
+    <dimen name="card_margin5">5sp</dimen>
+    <dimen name="customer_height50">50sp</dimen>
+    <dimen name="layout_margin15">15sp</dimen>
+    <dimen name="layout_margin10">10sp</dimen>
+    <dimen name="layout_margin8">8sp</dimen>
+    <dimen name="text_font_size_18">18sp</dimen>
+    <dimen name="fab_margin_bottom180">180sp</dimen>
+</resources>

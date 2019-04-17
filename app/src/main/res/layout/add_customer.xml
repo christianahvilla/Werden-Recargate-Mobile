@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_font_size_20"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/add_customer_margin_top35"
+        android:text="@string/title_add_customer" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_customer_margin_top20">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_customer_margin_side32"
+                android:layout_marginRight="@dimen/add_customer_margin_side32"
+                android:hint="@string/name_add_customer"
+                android:inputType="textCapSentences"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textSize="@dimen/text_font_size_18"
+                android:theme="@style/fields" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_customer_margin_top20">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_customer_margin_side32"
+                android:layout_marginRight="@dimen/add_customer_margin_side32"
+                android:hint="@string/last_add_customer"
+                android:inputType="textCapSentences"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textSize="@dimen/text_font_size_18"
+                android:theme="@style/fields" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/add_customer_margin_top20"
+            app:counterEnabled="true"
+            app:counterMaxLength="10">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_customer_margin_side32"
+                android:layout_marginRight="@dimen/add_customer_margin_side32"
+                android:hint="@string/number_add_customer"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:maxLength="10"
+                android:textSize="@dimen/text_font_size_18"
+                android:theme="@style/fields" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_customer_margin_top20"
+        android:layout_marginBottom="@dimen/add_customer_margin_bottom30">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/carrier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_customer_margin_side32"
+                android:layout_marginRight="@dimen/add_customer_margin_side32"
+                android:hint="@string/carrier_add_customer"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textSize="@dimen/text_font_size_18"
+                android:theme="@style/fields" />
+    </android.support.design.widget.TextInputLayout>
+
+
+</LinearLayout>

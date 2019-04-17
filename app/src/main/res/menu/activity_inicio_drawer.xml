@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/nav_customers" />
+
+
+        <item
+            android:id="@+id/nav_card"
+            android:icon="@drawable/ic_recent_actors_black_24dp"
+            android:title="@string/nav_card" />
+
+           -->
+        <item
+                android:id="@+id/nav_change_profile"
+                android:icon="@drawable/ic_supervisor_account_black_24dp"
+                android:title="@string/menu_cambiar_perfil"
+        />
+
+        <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_map_black_24dp"
+                android:title="@string/nav_business"
+        />
+    </group>
+
+    <item android:title="@string/nav_about">
+        <menu>
+            <item
+                android:id="@+id/nav_who"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="@string/nav_who_are" />
+        </menu>
+    </item>
+
+</menu>

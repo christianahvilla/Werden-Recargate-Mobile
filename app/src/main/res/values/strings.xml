@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Recárgate</string>
+    <string name="title_activity_inicio">Recárgate</string>
+    <string name="threeP">&#8942;</string>
+    <string name="codeChange">Admin01050583</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="web_site_business">http://aquienmichoacan.com.mx</string>
+    <string name="alert_title_hola">Hola :)</string>
+    <string name="alert_title_numero_copiado">Numero Copiado</string>
+    <string name="toast_client_copy">¿Deseas copiar al cliente </string>
+    <string name="toast_client_delete">¿Deseas eliminar al cliente </string>
+
+    <!--Buttons -->
+    <string name="button_accept">Aceptar</string>
+    <string name="button_cancel">Cancelar</string>
+
+    <!--Inicio Strings -->
+    <string name="activity_inicio_change_profile">Felicidades eres un administrador</string>
+    <string name="activity_inicio_change_noroot">Ya no eres un administrador</string>
+
+    <!--Nav-->
+    <string name="nav_customers">Mis Registros</string>
+    <string name="nav_card">Tarjetero</string>
+    <string name="nav_business">Todos los negocios</string>
+    <string name="nav_who_are">¿Quiénes somos?</string>
+    <string name="nav_about">Acerca de</string>
+
+    <!--Toast -->
+    <string name="toast_carrier">Compañía no valida</string>
+    <string name="toast_code">Código no valido</string>
+    <string name="toast_number">Número no valido</string>
+    <string name="toast_name">Nombre no valido</string>
+    <string name="toast_last">Apellido no valido</string>
+
+    <!--Add Customer Strings -->
+    <string name="title_add_customer">Agregar Cliente</string>
+    <string name="carrier_add_customer">Compañía</string>
+    <string name="number_add_customer">Número</string>
+    <string name="name_add_customer">Nombre</string>
+    <string name="last_add_customer">Apellido</string>
+
+
+    <!--Change Profile Strings -->
+    <string name="title_change_profile">Cambiar Perfil</string>
+    <string name="code_change_profile">Código</string>
+
+    <!--Who Are Strings -->
+    <string name="activity_who_message">Desarrollamos herramientas de negocios para impulsar su crecimiento, espera
+        nuestros próximos proyectos.
+    </string>
+    <string name="activity_who_email">aquienmichoacan@gmail.com</string>
+    <string name="activity_header_email">Contáctanos:</string>
+    <string name="activity_type_intent">message/rfc822</string>
+    <string name="package_google">com.google.android.gm</string>
+    <string name="gmail_error">Gmail App no está instalada</string>
+    <string name="activity_who_site">http://aquienmichoacan.com.mx</string>
+    <string name="activity_header_site">Sitio Web</string>
+
+    <!-- QR Strings -->
+    <string name="header_qr">Código ID</string>
+    <string name="activity_qr_description">ImageQR</string>
+    <string name="menu_cambiar_perfil">Cambiar Perfil</string>
+    <string name="alert_title_camera">Permisos de la cámara</string>
+    <string name="alert_message_camera">Utilizamos la cámara para escanear códigos QR de otros usuarios. Para conceder los permisos tienes que ir a los ajustes.</string>
+    <string name="customerimage">customerImage</string>
+
+</resources>
+

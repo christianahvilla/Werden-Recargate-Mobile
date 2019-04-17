@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Who">
+
+
+    <ImageView
+            android:id="@+id/support_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_who_height"
+            android:src="@mipmap/ic_recargate"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:id="@+id/support_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_font_size_20"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_below="@+id/support_image"
+            android:textAlignment="center"
+            android:text="@string/activity_who_message">
+    </TextView>
+
+    <TextView
+            android:id="@+id/header_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/support_message"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:textSize="@dimen/text_font_size_15"
+            android:layout_marginStart="@dimen/activity_margin_start"
+            android:textColor="@color/primary_text"
+            android:text="@string/activity_header_email">
+    </TextView>
+
+    <TextView
+            android:id="@+id/support_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header_email"
+            android:textSize="@dimen/text_font_size_15"
+            android:layout_marginStart="@dimen/activity_margin_start"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/boxes"
+            android:text="@string/activity_who_email">
+    </TextView>
+
+    <TextView
+            android:id="@+id/web_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@+id/support_email"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:textSize="@dimen/text_font_size_15"
+            android:layout_marginStart="@dimen/activity_margin_start"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/primary_text"
+            android:text="@string/activity_header_site">
+    </TextView>
+
+    <TextView
+            android:id="@+id/url_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/web_site"
+            android:textSize="@dimen/text_font_size_15"
+            android:layout_marginStart="@dimen/activity_margin_start"
+            android:textColor="@color/boxes"
+            android:layout_centerHorizontal="true"
+            android:text="@string/activity_who_site">
+    </TextView>
+
+</RelativeLayout>

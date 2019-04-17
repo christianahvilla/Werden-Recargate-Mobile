@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_font_size_20"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/change_profile_margin20"
+            android:text="@string/title_change_profile">
+    </TextView>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/change_profile_margin20">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/change_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_customer_margin_side32"
+                android:layout_marginRight="@dimen/add_customer_margin_side32"
+                android:hint="@string/code_change_profile"
+                android:inputType="textVisiblePassword"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textSize="@dimen/text_font_size_18"
+                android:theme="@style/fields">
+        </android.support.design.widget.TextInputEditText>
+    </android.support.design.widget.TextInputLayout>
+
+
+</LinearLayout>
